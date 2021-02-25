@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>794</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Coffee</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>771</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Название</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Степень обжарки</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Молотый/в зернах</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Описание вкуса</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Цена</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Объем упаковки</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>771</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ПоказатьОбновить таблицу кофе</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>560</y>
+     <width>771</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить кофе</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
